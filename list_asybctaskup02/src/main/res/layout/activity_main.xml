@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mydemos.list_asybctaskup02.MyListView
+        android:visibility="gone"
+        android:id="@+id/lv_main_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+         />
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数据正在加载中……"
+        android:id="@+id/tv_main_show"
+        android:layout_below="@+id/progressBar"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
