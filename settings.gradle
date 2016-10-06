@@ -1,1 +1,1 @@
-include ':listview_footerview', ':listview_headerview', ':listview_swiperefresh', ':list_asybctask', ':list_asybctaskup02'
+include ':listview_footerview', ':listview_headerview', ':listview_swiperefresh', ':list_asybctask', ':list_asybctaskup02', ':service之多线程断点续传下载', 'searchview_library', 'searchviewdemo'

@@ -6,6 +6,7 @@
     android:padding="6dp">
 
     <ImageView
+        android:background="@drawable/center_collect_play"
         android:id="@+id/iv_item_icon"
         android:layout_width="64dp"
         android:layout_height="64dp"
